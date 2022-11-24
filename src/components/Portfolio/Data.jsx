@@ -1,54 +1,45 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import Work1 from '../../assets/Random-Quote-Generator.png';
+import Work2 from '../../assets/Weather-SS.png';
+import Work3 from '../../assets/Rick-n-Morty-SS.png';
+import Work4 from '../../assets/Pokedex-SS.png';
 
 export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Web design",
-    category: "web",
+    title: 'Generador de frases',
+    category: 'React Js',
+    link: 'https://random-quote-gen-azure.vercel.app/',
   },
   {
     id: 2,
     image: Work2,
-    title: "App movil",
-    category: "app",
+    title: 'Aplicación del clima',
+    category: 'React Js',
+    link: 'https://weather-app-sigma-vert.vercel.app/',
   },
   {
     id: 3,
     image: Work3,
-    title: "Brand design",
-    category: "design",
+    title: 'Wiki de Rick and Morty',
+    category: 'React Js',
+    link: 'https://rick-and-morty-nine-sigma.vercel.app/',
   },
   {
     id: 4,
     image: Work4,
-    title: "App movil",
-    category: "app",
-  },
-  {
-    id: 5,
-    image: Work5,
-    title: "Web design",
-    category: "web",
+    title: 'Pokédex',
+    category: 'React Js',
+    link: 'https://pokedex-lemon-theta.vercel.app/',
   },
 ];
 
 // projects
 export const projectsNav = [
   {
-    name: "all",
+    name: 'todo',
   },
   {
-    name: "web",
-  },
-  {
-    name: "app",
-  },
-  {
-    name: "design",
+    name: 'react js',
   },
 ];

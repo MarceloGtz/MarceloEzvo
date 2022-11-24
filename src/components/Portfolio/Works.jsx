@@ -8,13 +8,13 @@ import { projectsNav } from './Data';
 import WorkItems from './WorkItems';
 
 const Projects = () => {
-  const [item, setItem] = useState({ name: 'all' });
+  const [item, setItem] = useState({ name: 'todo' });
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
 
   useEffect(() => {
     // get projects based on item
-    if (item.name === 'all') {
+    if (item.name === 'todo') {
       setProjects(projectsData);
     } else {
       const newProjects = projectsData.filter(project => {
